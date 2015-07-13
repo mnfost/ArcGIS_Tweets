@@ -362,7 +362,7 @@ class sentiment(object):
 			arcpy.AddField_management(Dir+"\\"+out_name,"group_var","TEXT")
 			arcpy.AddField_management(Dir+"\\"+out_name,"n_sent","INTEGER")
 			arcpy.AddField_management(Dir+"\\"+out_name,"n_words","INTEGER")
-			arcpy.AddField_management(Dir+"\\"+out_name,"ave_pol","TEXT")
+			arcpy.AddField_management(Dir+"\\"+out_name,"ave_pol","FLOAT")
 			arcpy.AddField_management(Dir+"\\"+out_name,"sd_pol","TEXT")
 			arcpy.AddField_management(Dir+"\\"+out_name,"sm_pol","TEXT")
 			arcpy.AddField_management(Dir+"\\"+out_name,"lats","FLOAT")
