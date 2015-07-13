@@ -1,5 +1,8 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
+
+## Created July 13, 2015 by Mindy Foster ##
+
 from __future__ import division
 import twitter
 import nltk
