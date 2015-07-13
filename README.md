@@ -14,3 +14,4 @@ In order to use this tool, users must have:
 
 -- the required R library installed -- qdap
 
+-- Twitter api keys and access tokens (https://dev.twitter.com/)
